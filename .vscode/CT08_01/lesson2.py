@@ -11,4 +11,5 @@ grade = 100
 student_grade[name] = grade
 print(f" Students: {student_grade}")
 
-# Task 
+# Task 4
+student_grade["John"] = 10
