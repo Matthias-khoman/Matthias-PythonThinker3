@@ -28,5 +28,5 @@ for student in student_grade:
     grade = student_grade[student]
     print(f" {student} Score {grade}")
     
-    print(student)
-    break
+    # print(student)
+    # break
