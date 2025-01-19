@@ -21,4 +21,4 @@ print(f"Students {student_grade}")
 
 # Task 6
 if student_grade['Michael'] in student_grade:
-    
+    print("")
