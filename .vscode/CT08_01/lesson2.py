@@ -33,4 +33,4 @@ for student in student_grade:
 
 # Method 2
 for name, grade in student_grade.items():
-    print(f"{name}")
+    print(f"{name} has a score")
