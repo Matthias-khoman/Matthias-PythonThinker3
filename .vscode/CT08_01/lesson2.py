@@ -1,2 +1,2 @@
 # Task 1
-Student_
+student
