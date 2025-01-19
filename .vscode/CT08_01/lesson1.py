@@ -32,6 +32,7 @@ def bubble_sort(numbers):
             temp = numbers[n + 1]
             numbers[n + 1] = numbers[n]
             numbers[n] = temp
+        
     return numbers
 
 print(bubble_sort(list1))
