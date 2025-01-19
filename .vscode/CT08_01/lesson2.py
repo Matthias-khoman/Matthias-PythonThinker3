@@ -24,3 +24,5 @@ print(f"Students {student_grade}")
     # print("Michael is in the dictionary")
 
 # Task 7
+for student in student_grade:
+    print
