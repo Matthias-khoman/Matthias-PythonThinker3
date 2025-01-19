@@ -43,4 +43,5 @@ def display_menu():
     print("Here is the menu")
     menu = {"Cheeseburger": 5.50,
             "Double Bacon Burger": 7.90,
-            "Chicken Sandwich": }
+            "Chicken Sandwich": 6.20,
+            "Crispy Fries": 2.80}
