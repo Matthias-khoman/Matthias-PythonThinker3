@@ -49,7 +49,7 @@ def display_menu():
             "Soda": 2.00}
     for food, price in menu.items():
         print(f"{food} costs {price}")
-        print("\n")
+    print("\n")
     print("end of menu")
 
 display_menu()
