@@ -38,15 +38,16 @@ student_grade = {"Matthias": 98, "John": 89, "Michael": 85, "Mabel":60}
 # In-Class exercise: Restaurant Menu
 
 # Task 1: Display the menu
-def display_menu():
-    print("Welcome to HanBaoBao")
-    print("Here is the menu\n")
-    menu = {"Cheeseburger": 5.50,
+menu = {"Cheeseburger": 5.50,
             "Double Bacon Burger": 7.90,
             "Chicken Sandwich": 6.20,
             "Crispy Fries": 2.80,
             "Cheese Fries": 4.50,
             "Soda": 2.00}
+
+def display_menu():
+    print("Welcome to HanBaoBao")
+    print("Here is the menu\n")
     for food, price in menu.items():
         print(f"{food} costs {price}")
     print("\n")
