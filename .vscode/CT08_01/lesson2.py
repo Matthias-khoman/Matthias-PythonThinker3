@@ -1,5 +1,5 @@
 # Task 1
-student_grade = {"Matthias": 98, "John": 89, "Michael": 85}
+student_grade = {"Matthias": 98, "John": 89, "Michael": 85, "Char":5}
 # print(f"Student grades {student_grade}")
 
 # # Task 2
