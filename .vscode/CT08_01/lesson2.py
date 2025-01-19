@@ -50,4 +50,4 @@ def display_menu():
     print(menu)
     print("end of menu")
 
-display_menu
+display_menu()
