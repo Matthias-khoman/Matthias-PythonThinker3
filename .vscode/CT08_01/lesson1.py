@@ -29,7 +29,6 @@ def bubble_sort(numbers):
     n = 0
     for n in range(len(numbers) - 1):
         for i in range(len(numbers)- 1):
-            
             if numbers[n] > numbers[n + 1]:
                 temp = numbers[n + 1]
                 numbers[n + 1] = numbers[n]
