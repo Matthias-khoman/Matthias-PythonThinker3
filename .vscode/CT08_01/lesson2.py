@@ -45,4 +45,5 @@ def display_menu():
             "Double Bacon Burger": 7.90,
             "Chicken Sandwich": 6.20,
             "Crispy Fries": 2.80,
-            "Cheese Fries": }
+            "Cheese Fries": 4.50,
+            "Soda": 2.00}
