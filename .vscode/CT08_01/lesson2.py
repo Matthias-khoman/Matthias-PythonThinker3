@@ -42,4 +42,5 @@ def display_menu():
     print("Welcome to HanBaoBao")
     print("Here is the menu")
     menu = {"Cheeseburger": 5.50,
-            "Double Bacon Burger": 7.}
+            "Double Bacon Burger": 7.90,
+            "Chicken Sandwich": }
