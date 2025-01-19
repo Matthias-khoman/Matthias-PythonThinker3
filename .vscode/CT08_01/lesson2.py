@@ -25,4 +25,4 @@ print(f"Students {student_grade}")
 
 # Task 7
 for student in student_grade:
-    print
+    print(student)
