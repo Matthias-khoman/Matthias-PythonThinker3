@@ -39,4 +39,5 @@ student_grade = {"Matthias": 98, "John": 89, "Michael": 85, "Mabel":60}
 
 # Task 1: Display the menu
 def display_menu():
-    print("Welcome to HanBaoBa9")
+    print("Welcome to HanBaoBao")
+    print("H")
