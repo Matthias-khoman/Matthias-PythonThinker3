@@ -16,4 +16,4 @@ student_grade["John"] = 10
 print(f" Students: {student_grade}")
 
 # Task 5
-del 
+del student_grade['John']
