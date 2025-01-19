@@ -48,4 +48,4 @@ for i in range(n):
 
 
 
-t(list1)
+print(list1)
