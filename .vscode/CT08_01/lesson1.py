@@ -9,15 +9,15 @@
 
 # Task 1
 
-numbers = [1, 2, 3, 4, 5]
+# numbers = [1, 2, 3, 4, 5]
 
-def is_ascending(items):
-    i = 0 
-    for i in range(len(items) - 1):
-        if items[i] > items[i + 1]:
-           return False
+# def is_ascending(items):
+#     i = 0 
+#     for i in range(len(items) - 1):
+#         if items[i] > items[i + 1]:
+#            return False
         
-    return True
+#     return True
         
 print(is_ascending(numbers))
 
