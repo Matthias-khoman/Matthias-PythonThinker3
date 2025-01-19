@@ -19,7 +19,7 @@
         
 #     return True
         
-print(is_ascending(numbers))
+# print(is_ascending(numbers))
 
 # Task 2
 
@@ -35,7 +35,7 @@ def bubble_sort(numbers):
                 numbers[n] = temp
             return numbers
 
-# print(bubble_sort(list1))
+print(bubble_sort(list1))
 
 
 # n = len(list1)
