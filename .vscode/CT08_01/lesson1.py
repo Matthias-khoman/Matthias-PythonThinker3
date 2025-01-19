@@ -44,4 +44,4 @@ n = len(list1)
 for i in range(n):
     for j in range(0, n - i - 1):
         if list1[j] > list1[j + 1]:
-            list[j] , list1[j + i]
+            list[j] , list1[j + i] = list1[j]
