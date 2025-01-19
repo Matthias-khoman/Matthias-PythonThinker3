@@ -34,3 +34,5 @@ student_grade = {"Matthias": 98, "John": 89, "Michael": 85, "Mabel":60}
 # # Method 2
 # for name, grade in student_grade.items():
 #     print(f"{name} has a score of {grade}")
+
+# In
