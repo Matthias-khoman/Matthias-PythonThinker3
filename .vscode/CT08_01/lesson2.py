@@ -6,4 +6,5 @@ print(f"Student grades {student_grade}")
 print(f" The Grade of Matthias is {student_grade["Matthias"]}")
 
 # Task 3
-name = ""
+name = "Marc"
+grade = 
