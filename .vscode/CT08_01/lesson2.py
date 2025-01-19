@@ -37,4 +37,6 @@ student_grade = {"Matthias": 98, "John": 89, "Michael": 85, "Mabel":60}
 
 # In-Class exercise: Restaurant Menu
 
-# Task 1: 
+# Task 1: Display the menu
+def display_menu():
+    
