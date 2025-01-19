@@ -40,11 +40,11 @@ list1 = [9, 6, 3, 25, 21, 8, 23, 1, 17, 14]
 
 
 n = len(list1)
-
-for i in range(n):
-    for j in range(0, n - i - 1):
-        if list1[j] > list1[j + 1]:
-            list[j] , list1[j + 1] = list1[j + 1], list1[j]
+def bubble_sort(numbers):
+    for i in range(n):
+        for j in range(0, n - i - 1):
+            if list1[j] > list1[j + 1]:
+                list[j] , list1[j + 1] = list1[j + 1], list1[j]
 
 
 
