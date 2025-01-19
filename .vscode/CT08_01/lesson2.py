@@ -32,4 +32,5 @@ for student in student_grade:
     # break
 
 # Method 2
-print(student)
+for name, grade in student_grade.items():
+    print(f"")
