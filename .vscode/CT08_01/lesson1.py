@@ -28,7 +28,7 @@ list1 = [9, 6, 3, 25, 21, 8, 23, 1, 17, 14]
 def bubble_sort(numbers):
     length = len(numbers)
     for i in range(length):
-        for n in range(len(numbers) - 1):
+        for n in range(length - 1):
             if numbers[n] > numbers[n + 1]:
                 temp = numbers[n + 1]
                 numbers[n + 1] = numbers[n]
