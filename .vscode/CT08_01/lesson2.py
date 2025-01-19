@@ -40,7 +40,7 @@ student_grade = {"Matthias": 98, "John": 89, "Michael": 85, "Mabel":60}
 # Task 1: Display the menu
 def display_menu():
     print("Welcome to HanBaoBao")
-    print("Here is the menu")
+    print("Here is the menu\n")
     menu = {"Cheeseburger": 5.50,
             "Double Bacon Burger": 7.90,
             "Chicken Sandwich": 6.20,
