@@ -47,8 +47,7 @@ def display_menu():
             "Crispy Fries": 2.80,
             "Cheese Fries": 4.50,
             "Soda": 2.00}
-    for food in menu:
-        price = menu[food]
+    for food, price in menu:
         print()
     print("end of menu")
 
