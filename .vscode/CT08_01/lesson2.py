@@ -26,7 +26,7 @@ student_grade = {"Matthias": 98, "John": 89, "Michael": 85, "Mabel":60}
 # Task 7
 for student in student_grade:
     grade = student_grade[student]
-    print(f" {student} Score {grade})
+    print(f" {student} Score {grade}")
     
     print(student)
     break
