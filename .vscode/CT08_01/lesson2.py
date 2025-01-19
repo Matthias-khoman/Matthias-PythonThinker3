@@ -48,7 +48,7 @@ def display_menu():
             "Cheese Fries": 4.50,
             "Soda": 2.00}
     for food, price in menu.items():
-        print(f"{food} costs {float(price)}")
+        print(f"{food} costs {price}")
     print("\n")
     print("end of menu")
 
