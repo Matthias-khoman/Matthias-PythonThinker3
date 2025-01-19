@@ -46,4 +46,4 @@ def bubble_sort():
             if list1[j] > list1[j + 1]:
                 list[j] , list1[j + i] = list1[j + 1], list1[j]
 
-    ret
+    return numbers
