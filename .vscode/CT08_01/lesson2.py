@@ -32,3 +32,4 @@ for student in student_grade:
     # break
 
 # Method 2
+print(student)
