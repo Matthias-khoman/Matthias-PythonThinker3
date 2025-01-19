@@ -45,7 +45,7 @@ def bubble_sort(numbers):
         for j in range(0, n - i - 1):
             if list1[j] > list1[j + 1]:
                 list[j] , list1[j + 1] = list1[j + 1], list1[j]
-
+    return numbers
 
 
 print(list1)
