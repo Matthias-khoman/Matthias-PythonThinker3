@@ -39,4 +39,4 @@ list1 = [9, 6, 3, 25, 21, 8, 23, 1, 17, 14]
 # print(bubble_sort(list1))
 
 def bubble_sort():
-    n
+    n = list1
