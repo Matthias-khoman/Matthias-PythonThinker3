@@ -26,13 +26,14 @@ print(is_ascending(numbers))
 list1 = [9, 6, 3, 25, 21, 8, 23, 1, 17, 14]
 
 def bubble_sort(numbers):
-    length = len
-    for n in range(len(numbers) - 1):
-        if numbers[n] > numbers[n + 1]:
-            temp = numbers[n + 1]
-            numbers[n + 1] = numbers[n]
-            numbers[n] = temp
-        return numbers
+    length = len(numbers)
+    for i in range(length):
+        for n in range(len(numbers) - 1):
+            if numbers[n] > numbers[n + 1]:
+                temp = numbers[n + 1]
+                numbers[n + 1] = numbers[n]
+                numbers[n] = temp
+            return numbers
 
 # print(bubble_sort(list1))
 
