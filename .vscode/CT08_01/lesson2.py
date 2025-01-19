@@ -17,3 +17,4 @@ print(f" Students: {student_grade}")
 
 # Task 5
 del student_grade['John']
+print(f"St")
