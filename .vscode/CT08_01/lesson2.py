@@ -46,7 +46,7 @@ menu = {"Cheeseburger": 5.50,
             "Soda": 2.00}
 
 def display_menu():
-    print("{:Welcome to HanBaoBao")
+    print("{:^10}Welcome to HanBaoBao")
     print("Here is the menu\n")
     for food, price in menu.items():
         print(f"{food} costs {price}")
