@@ -41,4 +41,4 @@ student_grade = {"Matthias": 98, "John": 89, "Michael": 85, "Mabel":60}
 def display_menu():
     print("Welcome to HanBaoBao")
     print("Here is the menu")
-    
+    menu = {}
