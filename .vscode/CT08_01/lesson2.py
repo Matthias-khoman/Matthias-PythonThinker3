@@ -24,13 +24,13 @@ student_grade = {"Matthias": 98, "John": 89, "Michael": 85, "Mabel":60}
     # print("Michael is in the dictionary")
 
 # Task 7
-for student in student_grade:
-    grade = student_grade[student]
-    print(f" {student} Score {grade}")
+# for student in student_grade:
+#     grade = student_grade[student]
+#     print(f" {student} Score {grade}")
     
-    # print(student)
-    # break
+#     # print(student)
+#     # break
 
-# Method 2
-for name, grade in student_grade.items():
-    print(f"{name} has a score of {grade}")
+# # Method 2
+# for name, grade in student_grade.items():
+#     print(f"{name} has a score of {grade}")
