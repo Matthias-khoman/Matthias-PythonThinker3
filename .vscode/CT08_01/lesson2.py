@@ -47,4 +47,4 @@ def display_menu():
             "Crispy Fries": 2.80,
             "Cheese Fries": 4.50,
             "Soda": 2.00}
-    print()
+    print("end of menu")
