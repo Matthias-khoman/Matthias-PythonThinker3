@@ -55,11 +55,37 @@ def display_menu():
 
 customer_order = {}
 
-def take_order(order, menu, customer):
+# order = input('What do you want? ')
+
+def take_order(order, menu, customer_order):
     if order in menu:
-        customer_order[order]
+        print(f'{order} has been added to your order')
+        customer_order[order] = menu[order]
     else:
-        
-        pass 
+        print("Sorry, We don't sell that")
+    return customer_order
+        # pass 
+# order = "Cheeseburger"
 
 # display_menu()
+# take_order(order, menu, customer_order)
+# print(f"your order is {customer_order}")
+
+# Task 3:
+def display_order_summary(customer_order):
+    print('{:^10}Order Summary{:^10}'.format('-'*10, '-'*10))
+    order_total = 0
+    for order, price in customer_order.items():
+        print("{:^30}:${:8.2f}".format(order, price))
+        order_total = order_total + price
+    print('Total: ${:.2f}\n'.format(order_total))
+        
+
+display_order_summary(customer_order)
+
+display_menu()
+order = input("what would you like (Type no more to end)")
+while order != 'no more':
+    take_order(order, menu, customer_order)
+    order = input("what would you like (Type no more to end)")
+display_order_summary(customer_order)
