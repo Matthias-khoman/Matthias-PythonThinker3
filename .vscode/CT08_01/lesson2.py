@@ -53,6 +53,6 @@ def display_menu():
     print("\n")
     print("end of menu")
 
-cus
+customer_order = {}
 
 display_menu()
