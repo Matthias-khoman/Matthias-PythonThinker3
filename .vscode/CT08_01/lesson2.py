@@ -55,4 +55,8 @@ def display_menu():
 
 customer_order = {}
 
+def take_order(order, menu, customer):
+    if order in menu:
+        pass
+
 display_menu()
