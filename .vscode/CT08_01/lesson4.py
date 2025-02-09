@@ -2,7 +2,7 @@
 # def greet():
 #     print('Hello world')
 
-greet()
+# greet()
 
 # Exerise 2
 def greet(name):
