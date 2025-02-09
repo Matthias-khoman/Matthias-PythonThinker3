@@ -21,7 +21,7 @@ def take_order(BOS, order, quantity,  customer_order):
 def order_summary(customer_order):
     print('-----------Order Summary------------')
     for order, quantity_cost in customer_order.items():
-        quantity = quantity_cost[quantity]
+        quantity = quantity_cost['quantity']
         cost = quantity_cost[cost]
         print(f'{order} x {quantity} at {cost} each')
         total_item_price = 0
