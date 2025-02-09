@@ -21,6 +21,7 @@ def take_order(BOS, order, customer_order):
 take_order(BOS, 'Notebook', customer_order)
 print(customer_order)
 take_order(BOS, 'Notebook', customer_order)
+print(customer_order)
 # def order_summary(customer_order):
 #     print('-----------Order Summary------------')
 
