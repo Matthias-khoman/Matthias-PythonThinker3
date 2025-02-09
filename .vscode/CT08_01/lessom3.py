@@ -7,4 +7,10 @@ def display_BOS():
         print("{:^30}:${:^8.2f}".format(item, price))
     print('spend $20 to get 10% off')
 
+customer_order={}
+
+def take_order(menu, order, customer_order):
+    if order in BOS:
+        print('')
+
         
