@@ -13,11 +13,13 @@ def take_order(menu, order, customer_order):
     if order in BOS:
         print(f'{order} has been added')
         customer_order[order] = BOS[order]
+        if order in customer_order:
+            customer_order[order]
     else:
         print("We don't sell that")
 
 def order_summary(customer_order):
     print('-----------Order Summary------------')
-    
+
 
         
