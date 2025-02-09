@@ -11,5 +11,5 @@
 # greet('Alice')
 
 # Exercise 3
-def calculate_area(length: int, width: int):
+def calculate_area(length: int, width: int) -> int
     return length * width
