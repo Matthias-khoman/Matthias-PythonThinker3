@@ -14,7 +14,7 @@ def take_order(menu, order, customer_order):
         print(f'{order} has been added')
         customer_order[order] = BOS[order]
         if order in customer_order:
-            total pricecustomer_order[order] + customer_order[order]
+            total_price = customer_order[order] + customer_order[order]
     else:
         print("We don't sell that")
 
