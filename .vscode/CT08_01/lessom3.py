@@ -12,7 +12,7 @@ customer_order={}
 def take_order(BOS, order, quantity,  customer_order):
     if order in BOS:
         print(f'{order} has been added')
-        customer_order[order] = {quantity}
+        customer_order[order] = {quantity: BOS[order]}
     else:
         print("We don't sell that")
 
