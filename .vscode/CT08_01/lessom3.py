@@ -30,7 +30,7 @@ def order_summary(customer_order):
     print(f'Your total is {total_price}')
 
 display_BOS()
-order = input('')
+order = input('What do you want? (Sa)')
 
 
         
