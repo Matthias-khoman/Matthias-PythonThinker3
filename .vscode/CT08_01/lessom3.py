@@ -23,6 +23,7 @@ def order_summary(customer_order):
     for order, quantity_cost in customer_order.items():
         quantity = quantity_cost[quantity]
         cost = quantity_cost[cost]
+        print
 
 
         
