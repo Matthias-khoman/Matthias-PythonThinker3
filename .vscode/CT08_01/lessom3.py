@@ -16,7 +16,8 @@ def take_order(BOS, order, quantity,  customer_order):
     else:
         print("We don't sell that")
 
-take_order(BOS, 'Notebook', 2, )
+take_order(BOS, 'Notebook', 2, customer_order)
+p
 
 # def order_summary(customer_order):
 #     print('-----------Order Summary------------')
