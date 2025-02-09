@@ -11,6 +11,6 @@ customer_order={}
 
 def take_order(menu, order, customer_order):
     if order in BOS:
-        print(f'{order} costs {BOS[order]}')
+        print(f'{order} costs {BOS[order]} would you like it? ')
 
         
