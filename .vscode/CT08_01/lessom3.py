@@ -27,7 +27,7 @@ def order_summary(customer_order):
         total_item_price = 0
         total_item_price = cost * quantity
         total_price = total_item_price + total_item_price
-    print('Your total is {total_}')
+    print(f'Your total is {total_price}')
 
 
         
