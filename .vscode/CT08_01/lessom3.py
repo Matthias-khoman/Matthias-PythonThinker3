@@ -35,7 +35,7 @@ quantity = input('hpw many do you want')
 while order != 'no more':
     take_order(BOS, order, customer_order)
     order = input('What do you want? (Say no more to end)')
-    quanti
+    quantity = input('How many do you want? ')
 order_summary()
 
 
