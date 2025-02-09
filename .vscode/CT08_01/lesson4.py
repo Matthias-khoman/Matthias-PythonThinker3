@@ -12,4 +12,4 @@
 
 # Exercise 3
 def calculate_area(length: int, width: int):
-    return
+    return length * width
