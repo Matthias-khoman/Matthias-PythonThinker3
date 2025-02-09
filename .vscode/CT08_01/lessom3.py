@@ -13,6 +13,6 @@ def take_order(menu, order, customer_order):
     if order in BOS:
         option = input(f'{order} costs {BOS[order]} would you like it? ')
         if option == 'y':
-            print(f'')
+            print(f'{order}')
 
         
