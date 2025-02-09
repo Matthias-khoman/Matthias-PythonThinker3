@@ -5,5 +5,6 @@ def display_BOS():
     print('---------Welcome to MBK----------')
     for item, price in BOS:
         print("{:^30}:${:^8.2f}".format(item, price))
-        
+
+
         
