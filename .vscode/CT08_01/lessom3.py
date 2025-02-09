@@ -6,3 +6,4 @@ def display_BOS():
     for item, price in BOS:
         print("{:^30}:${:^8.2f}".format(item, price))
         
+        
