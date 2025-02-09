@@ -6,4 +6,4 @@ greet()
 
 # Exerise 2
 def greet(name):
-    print()
+    print(f'Hello {name}')
