@@ -11,7 +11,7 @@
 # greet('Alice')
 
 # Exercise 3
-def calculate_area(length: int | float, width: int) -> int:
+def calculate_area(length: int | float, width: int | float) -> int | float:
     return length * width
 
 
