@@ -20,4 +20,5 @@ def calculate_perimeter(length: int, width: int) -> int:
 
 
 length = 6
-w
+width = 4
+area = calculate_area()
