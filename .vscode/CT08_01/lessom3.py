@@ -14,6 +14,6 @@ def take_order(menu, order, customer_order):
         print(f'{order} has been added')
         customer_order[order] = BOS[order]
     else:
-        print('')
+        print("We don't sell that")
 
         
