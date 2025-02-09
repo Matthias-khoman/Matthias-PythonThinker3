@@ -11,6 +11,6 @@ customer_order={}
 
 def take_order(menu, order, customer_order):
     if order in BOS:
-        input(f'{order} costs {BOS[order]} would you like it? ')
+        option = input(f'{order} costs {BOS[order]} would you like it? ')
 
         
