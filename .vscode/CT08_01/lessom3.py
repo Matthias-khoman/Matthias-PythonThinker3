@@ -26,7 +26,7 @@ def order_summary(customer_order):
         print(f'{order} x {quantity} at {cost} each')
         total_item_price = 0
         total_item_price = cost * quantity
-        total 
+        total_price = tota
 
 
         
