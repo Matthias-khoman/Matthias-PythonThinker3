@@ -5,7 +5,7 @@
 # greet()
 
 # Exerise 2
-def greet(name):
-    print(f'Hello {name}')
+# def greet(name):
+#     print(f'Hello {name}')
 
-greet('Alice')
+# greet('Alice')
