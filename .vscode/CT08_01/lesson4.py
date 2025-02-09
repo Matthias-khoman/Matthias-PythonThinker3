@@ -23,4 +23,4 @@ length = 6
 width = 4
 area = calculate_area(length, width)
 perimeter = calculate_perimeter(length, width)
-print(f'Area: {area}')
+print(f'Area: {area}, perimeter: {perimeter}')
