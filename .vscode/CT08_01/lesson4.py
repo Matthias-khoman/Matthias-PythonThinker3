@@ -4,4 +4,6 @@ def greet():
 
 greet()
 
-# Exerise
+# Exerise 2
+def greet(name):
+    print()
