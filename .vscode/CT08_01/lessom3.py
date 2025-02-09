@@ -31,7 +31,7 @@ def order_summary(customer_order):
 
 display_BOS()
 order = input('What do you want? (Say no more to end)')
-quantity = input('hpw many do you want')
+quantity = int(input('hpw many do you want'))
 while order != 'no more':
     take_order(BOS, order, quantity, customer_order)
     order = input('What do you want? (Say no more to end)')
