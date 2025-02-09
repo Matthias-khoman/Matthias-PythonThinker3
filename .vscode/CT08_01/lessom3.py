@@ -3,7 +3,7 @@ BOS = {'Notebook':2.50,'Pencil':0.50,'Pen':1.20,'Ruler':1.50,'Eraser':0.50,'Writ
 
 def display_BOS():
     print('---------Welcome to MBK----------')
-    for item, price in BOS:
+    for item, price in BOS.items():
         print("{:^30}:${:^8.2f}".format(item, price))
     print('spend $20 to get 10% off')
 
