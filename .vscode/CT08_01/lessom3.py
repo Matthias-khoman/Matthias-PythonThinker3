@@ -17,6 +17,6 @@ def take_order(menu, order, customer_order):
         print("We don't sell that")
 
 def order_summary(customer_order):
-    print()
+    print('')
 
         
