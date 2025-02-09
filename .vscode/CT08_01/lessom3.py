@@ -29,7 +29,7 @@ def order_summary(customer_order):
         total_price = total_item_price + total_item_price
     print(f'Your total is {total_price}')
 
-    
+
 
 
         
