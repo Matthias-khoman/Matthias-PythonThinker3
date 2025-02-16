@@ -21,3 +21,6 @@ def take_attendance(students: dict) -> dict:
 # updated_students = take_attendance(students)
 # print(updated_students)
 
+#Task 2
+
+
