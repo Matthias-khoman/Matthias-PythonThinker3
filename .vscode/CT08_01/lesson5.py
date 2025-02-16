@@ -13,5 +13,5 @@ def take_attendance(students: dict) -> dict:
         students[student].append(attendance)
     print('Attendance for Class A is taken')
 
-
+updated_students
 
