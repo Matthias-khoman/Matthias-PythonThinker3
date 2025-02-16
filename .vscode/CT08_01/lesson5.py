@@ -26,7 +26,7 @@ def attendance_percent(student: str, students: dict) -> float:
     if student in students:
         attendance_list = students[student]
         num = attendance_list.countr(True)
-        denom
+        denom = 
     
 value = attendance_percent("lily", students)
 print(value)
