@@ -9,6 +9,6 @@ def take_attendance(students: dict) -> dict:
         elif attendance == 'n':
             attendance = False
         else:
-            print('invalid input')
+            print('invalid input only y or n')
         students[student].append(attendance)
 
