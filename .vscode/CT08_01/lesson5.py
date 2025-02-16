@@ -41,3 +41,5 @@ def notify_low_attendance_students(students: dict, threshold: float) -> list:
            low_attendance_students.append(student)
            
     return low_attendance_students
+
+
