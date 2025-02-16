@@ -43,3 +43,4 @@ def notify_low_attendance_students(students: dict, threshold: float) -> list:
     return low_attendance_students
 
 
+print('School Attendace System')
