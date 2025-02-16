@@ -26,8 +26,9 @@ def attendance_percent(student: str, students: dict) -> float:
     num_true = 0
     if student in students:
         for attendance in students[student]:
-            if attendance == True:
-                num_true +=1
+            while True:
+                if attendance == True:
+                    num_true +=1
             
         
 
