@@ -18,6 +18,6 @@ def take_attendance(students: dict) -> dict:
     print('Attendance for Class A is taken')
     return students
 
-updated_students = take_attendance(students)
-print(updated_students)
+# updated_students = take_attendance(students)
+# print(updated_students)
 
