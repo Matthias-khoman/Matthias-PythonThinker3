@@ -8,6 +8,7 @@ def take_attendance(students: dict) -> dict:
             attendance = True
         elif attendance == 'n':
             attendance = False
-        
+        else:
+            print('invalid')
         students[student].append(attendance)
 
