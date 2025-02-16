@@ -39,3 +39,4 @@ def notify_low_attendance_students(students: dict, threshold: float) -> list:
     low_attendance_students = []
     for student, attendance in students:
         attendance_percent(student, students)
+    
