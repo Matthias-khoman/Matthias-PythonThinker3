@@ -8,4 +8,5 @@ def take_attendance(students: dict) -> dict:
             attendance = True
         else:
             attendance = False
-        students[student].append
+        students[student].append(attendance)
+        
