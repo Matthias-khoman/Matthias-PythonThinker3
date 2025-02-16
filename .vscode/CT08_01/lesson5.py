@@ -31,7 +31,7 @@ def attendance_percent(student: str, students: dict) -> float:
     else:
         print("HEY YOU ARE NOT MY STUDENT")
     
-value = attendance_percent("alice", students)
+value = attendance_percent("lily", students)
 print(value)
             
         
