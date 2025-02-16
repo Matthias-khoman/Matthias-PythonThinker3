@@ -6,7 +6,8 @@ def take_attendance(students: dict) -> dict:
         attendance = input(f'Is {student} present(y/n)? ')
         if attendance == 'y':
             attendance = True
-        elif atte:
+        elif attendance == 'n':
             attendance = False
+        
         students[student].append(attendance)
 
