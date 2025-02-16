@@ -27,7 +27,7 @@ def attendance_percent(student: str, students: dict) -> float:
         attendance_list = students[student]
         num = attendance_list.count(True)
         denom = len(attendance_list)
-        return (num / denom) * 100
+        return round((num / denom) * 100, 2)
     else:
         print("HEY YOU ARE NOT MY STUDENT")
     
