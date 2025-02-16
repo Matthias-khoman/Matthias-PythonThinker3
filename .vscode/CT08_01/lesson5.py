@@ -33,6 +33,8 @@ def attendance_percent(student: str, students: dict) -> float:
     
 value = attendance_percent("lily", students)
 print(value)
+
+
             
         
 
