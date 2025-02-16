@@ -7,6 +7,7 @@ def take_attendance(students: dict) -> dict:
             attendance = input(f'Is {student} present(y/n)? ')
             if attendance == 'y':
                 attendance = True
+                students[student].append(attendance)
                 break
             elif attendance == 'n':
                 attendance = False
@@ -14,7 +15,6 @@ def take_attendance(students: dict) -> dict:
                 break
             else:
                 print('invalid input only y or n')
-            
     print('Attendance for Class A is taken')
     return students
 
