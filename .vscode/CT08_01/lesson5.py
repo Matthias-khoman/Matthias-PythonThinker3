@@ -1,2 +1,6 @@
 # Task 1
-stsudents = {"peter": [True, True, True], "lily":[False, False, True], "alice": [False, False, False], "tom": [True, True, False]}
+students = {"peter": [True, True, True], "lily": [False, False, True], "alice": [False, False, False], "tom": [True, True, False]}
+
+def take_attendance(students: dict) -> dict:
+    for student, attendance in students.items:
+        input
