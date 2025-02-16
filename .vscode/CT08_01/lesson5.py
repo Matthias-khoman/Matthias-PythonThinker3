@@ -43,4 +43,4 @@ def notify_low_attendance_students(students: dict, threshold: float) -> list:
            low_attendance_students.append(students[student])
     return low_attendance_students
 
-students_with_low_attendance = n
+students_with_low_attendance = notify_low_attendance_students(student, students)
