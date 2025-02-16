@@ -23,16 +23,8 @@ def take_attendance(students: dict) -> dict:
 
 #Task 2
 def attendance_percent(student: str, students: dict) -> float:
-    num_true = 0
     if student in students:
-        for attendance in students[student]:
-            while True:
-                if attendance == True:
-                    num_true +=1
-                    break
-        total = len(students[student])
-        att_per = num_true/total * 100
-        return att_per
+        attendance
     
 value = attendance_percent("lily", students)
 print(value)
