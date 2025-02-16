@@ -24,7 +24,7 @@ def take_attendance(students: dict) -> dict:
 #Task 2
 def attendance_percent(student: str, students: dict) -> float:
     if student in students:
-        attendance
+        attendance_list = students[student]
     
 value = attendance_percent("lily", students)
 print(value)
