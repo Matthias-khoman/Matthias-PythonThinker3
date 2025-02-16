@@ -31,7 +31,7 @@ def attendance_percent(student: str, students: dict) -> float:
                     num_true +=1
                     break
             total = len(attendance)
-        att_per = num
+        att_per = num_true/total 
 
             
         
