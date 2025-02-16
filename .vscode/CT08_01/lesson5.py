@@ -1,2 +1,2 @@
 # Task 1
-stsudents = {"Matthias": [True, True, True], "Dante":[False, False, True]}
+stsudents = {"matthias": [True, True, True], "dante":[False, False, True], "alice":[]}
