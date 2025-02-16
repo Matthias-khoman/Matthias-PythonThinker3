@@ -4,3 +4,5 @@ students = {"peter": [True, True, True], "lily": [False, False, True], "alice": 
 def take_attendance(students: dict) -> dict:
     for student, attendance in students.items:
         attendance = input(f'Is {student} present(y/n)? ')
+        if attendance == 'y':
+            
