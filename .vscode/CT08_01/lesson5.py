@@ -37,7 +37,7 @@ print(value)
 #Task 3
 def notify_low_attendance_students(students: dict, threshold: float) -> list:
     low_attendance_students = []
-    for student, attendance in students:
+    for student, attendance in students.items():
        attendance_percentage=attendance_percent(student, students)
        if attendance_percentage < threshold:
            low_attendance_students.append(students[student])
