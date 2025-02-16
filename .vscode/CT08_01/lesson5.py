@@ -22,5 +22,11 @@ def take_attendance(students: dict) -> dict:
 # print(updated_students)
 
 #Task 2
-
+def attendance_percent(student: str, students: dict) -> float:
+    num_true = 0
+    if student in students:
+        for attendance in students[student]:
+            if attendance == True:
+                
+        
 
