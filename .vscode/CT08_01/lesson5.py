@@ -54,7 +54,7 @@ while True:
     print('2: Calculate Attendance Percentage')
     print('3: Notify Low Attendance')
     print('4: Exit Program')
-    choice = input('Enter your choice: ')
+    choice = int(input('Enter your choice: ')
     if choice == 1:
         take_attendance(students)
     elif choice == 2:
