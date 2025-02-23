@@ -4,7 +4,7 @@ student_answers = {'john': ['A', 'C', 'B', 'D'],
                    'alice': ['A', 'C', 'C', 'D'],
                    'bob': ['A', 'B', 'B', 'D']}
 
-def grade_students(student_answers: dict, answer_key: list):
+def grade_students(student_answers: dict, answer_key: list) -> dict:
     student_score = {}
     for student, answers in student_answers.items():
         score = 0
