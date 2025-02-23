@@ -42,19 +42,19 @@ def notify_low_attendance_students(students: dict, threshold: float) -> list:
            
     return low_attendance_students
 
-
-print('School Attendace System')
-print('1: Take Attendance')
-print('2: Calculate Attendance Percentage')
-print('3: Notify Low Attendance')
-print('4: Exit Program')
-choice = input('Enter your choice: ')
-if choice == 1:
-    take_attendance(students)
-elif choice == 2:
-    student_name = input('Enter the name:(lowercase) ')
-    attendance_percent(student_name, students)
-elif choice == 3:
-    notify_low_attendance_students()
-elif choice == 4:
-    print('Exiting...')
+while True:
+    print('School Attendace System')
+    print('1: Take Attendance')
+    print('2: Calculate Attendance Percentage')
+    print('3: Notify Low Attendance')
+    print('4: Exit Program')
+    choice = input('Enter your choice: ')
+    if choice == 1:
+        take_attendance(students)
+    elif choice == 2:
+        student_name = input('Enter the name:(lowercase) ')
+        attendance_percent(student_name, students)
+    elif choice == 3:
+        notify_low_attendance_students()
+    elif choice == 4:
+        print('Exiting...')
