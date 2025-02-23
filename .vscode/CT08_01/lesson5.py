@@ -57,3 +57,4 @@ elif choice == 3:
     notify_low_attendance_students()
 elif choice == 4:
     print('Exiting...')
+    
