@@ -28,5 +28,5 @@ def calculate_average_score(student_score: dict) -> float:
 
 
 def find_highest_score(quiz_scores):
-    hi
+    highest_scorers
     highest_score = max(quiz_scores.values)
