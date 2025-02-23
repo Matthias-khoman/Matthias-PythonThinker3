@@ -13,3 +13,10 @@ def grade_students(student_answers: dict, answer_key: list):
                 score +=1
 
         student_score[student] = score
+
+def calculate_average_score(student_score: dict):
+    total_score = 0
+    for student, score in student_score.items():
+        total_score
+
+
