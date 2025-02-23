@@ -62,6 +62,7 @@ while True:
         attendance_percent(student_name, students)
     elif choice == 3:
         list_warning = notify_low_attendance_students(students, 50.0)
+        print(f'Th')
     elif choice == 4:
         print('Exiting...')
         break
