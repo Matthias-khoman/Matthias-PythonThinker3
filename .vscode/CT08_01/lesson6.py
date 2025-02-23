@@ -21,5 +21,7 @@ def calculate_average_score(student_score: dict):
         total_score = total_score + score
     average = total_score / num_students
 
+    r
+
 
 
