@@ -55,4 +55,5 @@ elif choice == 2:
     attendance_percent()
 elif choice == 3:
     notify_low_attendance_students()
-elf
+elif choice == 4:
+    break
