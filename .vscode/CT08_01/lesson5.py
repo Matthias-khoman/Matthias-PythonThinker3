@@ -53,3 +53,5 @@ if choice == 1:
     take_attendance()
 elif choice == 2:
     attendance_percent()
+elif choice == 3:
+    notify_low_attendance_students
