@@ -67,3 +67,5 @@ while True:
     elif choice == 4:
         print('Exiting...')
         break
+    else:
+        print('')
