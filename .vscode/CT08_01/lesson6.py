@@ -1,2 +1,3 @@
 answer_key = ['A', 'B', 'C', 'D']
-student_answers = {'john': ['A', 'C', 'B', 'D']}
+student_answers = {'john': ['A', 'C', 'B', 'D'],
+                   'jane'}
