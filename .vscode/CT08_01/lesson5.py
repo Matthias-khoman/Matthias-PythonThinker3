@@ -62,7 +62,7 @@ while True:
         attendance_percent(student_name, students)
     elif choice == 3:
         threshold = float(input('What is the threshold: '))
-        list_warning = notify_low_attendance_students(students)
+        list_warning = notify_low_attendance_students(students, threshold)
         print(f'The list of students with low attendance is {list_warning}')
     elif choice == 4:
         print('Exiting...')
