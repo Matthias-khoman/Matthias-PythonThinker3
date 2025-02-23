@@ -24,7 +24,7 @@ def calculate_average_score(student_score: dict) -> float:
     return average
 
 quiz_scores = grade_students(student_answers, answer_key)
-print(calculate_average_score(quiz_scores))
+calculate_average_score(quiz_scores)
 
 
 def find_highest_score(quiz_scores):
