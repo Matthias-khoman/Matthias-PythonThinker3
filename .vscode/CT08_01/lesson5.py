@@ -58,3 +58,4 @@ while True:
         notify_low_attendance_students(students, 50, )
     elif choice == 4:
         print('Exiting...')
+        break
