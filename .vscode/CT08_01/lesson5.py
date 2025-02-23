@@ -55,7 +55,7 @@ while True:
         student_name = input('Enter the name:(lowercase) ')
         attendance_percent(student_name, students)
     elif choice == 3:
-        notify_low_attendance_students(students, 50, )
+        notify_low_attendance_students(students, 50)
     elif choice == 4:
         print('Exiting...')
         break
