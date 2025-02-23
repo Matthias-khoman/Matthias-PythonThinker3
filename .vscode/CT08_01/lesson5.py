@@ -53,7 +53,7 @@ if choice == 1:
     take_attendance(students)
 elif choice == 2:
     student_name = input('Enter the name:(lowercase) ')
-    attendance_percent(student_name, )
+    attendance_percent(student_name, students)
 elif choice == 3:
     notify_low_attendance_students()
 elif choice == 4:
