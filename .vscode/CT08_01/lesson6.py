@@ -32,4 +32,4 @@ def find_highest_score(quiz_scores):
     highest_score = max(quiz_scores.values())
     for students, scores in quiz_scores.items():
         if scores == highest_score:
-            students
+            highest_scorers.append(students)
