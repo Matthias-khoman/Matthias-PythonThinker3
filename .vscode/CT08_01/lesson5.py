@@ -68,4 +68,4 @@ while True:
         print('Exiting...')
         break
     else:
-        print('')
+        print('Inv')
