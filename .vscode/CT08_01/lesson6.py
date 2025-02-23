@@ -35,4 +35,4 @@ def find_highest_score(quiz_scores):
             highest_scorers.append(students)
     return highest_scorers
 
-print(find_highest_score(scores))
+print(find_highest_score(quiz_scores))
