@@ -12,4 +12,4 @@ def grade_students(student_answers: dict, answer_key: list):
             if answers[i] == answer_key[i]:
                 score +=1
 
-        student_score[student]
+        student_score[student] = score
