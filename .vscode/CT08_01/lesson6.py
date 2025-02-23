@@ -1,1 +1,1 @@
-answer_key = [A]
+answer_key = ['A', 'B']
