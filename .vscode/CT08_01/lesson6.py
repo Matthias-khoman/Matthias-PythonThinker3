@@ -28,4 +28,4 @@ def calculate_average_score(student_score: dict) -> float:
 
 
 def find_highest_score(quiz_scores):
-    quiz_scores.values()
+    max(quiz_scores.values())
