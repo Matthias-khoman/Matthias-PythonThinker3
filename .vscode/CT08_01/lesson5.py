@@ -43,11 +43,11 @@ def notify_low_attendance_students(students: dict, threshold: float) -> list:
     return low_attendance_students
 
 
-print('School Attendace System')
-print('1: Take Attendance')
-print('2: Calculate Attendance Percentage')
-print('3: Notify Low Attendance')
-print('4: Exit Program')
+# print('School Attendace System')
+# print('1: Take Attendance')
+# print('2: Calculate Attendance Percentage')
+# print('3: Notify Low Attendance')
+# print('4: Exit Program')
 while True:
     print('School Attendace System')
     print('1: Take Attendance')
