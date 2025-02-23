@@ -50,11 +50,10 @@ print('3: Notify Low Attendance')
 print('4: Exit Program')
 choice = input('Enter your choice: ')
 if choice == 1:
-    take_attendance()
+    take_attendance(students)
 elif choice == 2:
     attendance_percent()
 elif choice == 3:
     notify_low_attendance_students()
 elif choice == 4:
     print('Exiting...')
-    
