@@ -24,4 +24,5 @@ def calculate_average_score(student_score: dict) -> float:
     return average
 
 quiz_scores = grade_students(student_answers, answer_key)
+calculate_average_score(q)
 
