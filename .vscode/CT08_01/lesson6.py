@@ -17,6 +17,6 @@ def grade_students(student_answers: dict, answer_key: list):
 def calculate_average_score(student_score: dict):
     total_score = 0
     for student, score in student_score.items():
-        total_score
+        total_score = total_score + score
 
 
