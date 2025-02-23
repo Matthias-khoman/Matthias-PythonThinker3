@@ -52,6 +52,7 @@ choice = input('Enter your choice: ')
 if choice == 1:
     take_attendance(students)
 elif choice == 2:
+    student_name
     attendance_percent()
 elif choice == 3:
     notify_low_attendance_students()
