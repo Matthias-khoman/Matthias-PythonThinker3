@@ -1,1 +1,1 @@
-answer_key
+answer_key = [A]
