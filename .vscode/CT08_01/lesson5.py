@@ -68,4 +68,4 @@ while True:
         print('Exiting...')
         break
     else:
-        print('Inv')
+        print('Invalid Input Try again')
