@@ -24,3 +24,5 @@ file.close()
 with open(fullpath, 'r') as file:
     content = file.read()
     print(f"File content with 'with': {content}")
+
+#
