@@ -17,4 +17,4 @@ file.close()
 # Exercise 2
 file = open(fullpath, "r")
 content = file.read()
-print(f'File Content')
+print(f'File Content {content}')
