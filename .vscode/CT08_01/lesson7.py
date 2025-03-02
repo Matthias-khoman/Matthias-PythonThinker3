@@ -10,3 +10,4 @@ else:
 
 # Exercise 1
 file = open("example.txt", "w")
+file.write('')
