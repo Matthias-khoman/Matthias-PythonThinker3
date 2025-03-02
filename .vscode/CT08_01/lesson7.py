@@ -10,6 +10,6 @@ else:
     print("{} does not exist".format(fullpath))
 
 # Exercise 1
-file = open(fullpath, "w")
-file.write("Hello World")
+file = open(fullpath, "a")
+file.write("Hello John")
 file.close()
