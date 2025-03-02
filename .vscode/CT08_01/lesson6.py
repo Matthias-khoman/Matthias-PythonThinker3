@@ -61,6 +61,8 @@ while True:
     elif option == 2:
         calculate_average_score(student_scores)
     elif option == 3:
-        find_highest_score(st_scores)
+        find_highest_score(student_scores)
+    elif option == 4:
+        display_results()
 
         
