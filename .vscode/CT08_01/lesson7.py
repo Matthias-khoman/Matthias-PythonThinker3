@@ -36,4 +36,4 @@ with open(fullpath, "w") as file:
     file.writelines(lines)
 
 with open(fullpath, "r") as file:
-    
+    lines = file.read
