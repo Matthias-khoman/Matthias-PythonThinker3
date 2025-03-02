@@ -36,3 +36,7 @@ def find_highest_score(quiz_scores):
     return highest_scorers
 
 print(find_highest_score(quiz_scores))
+
+def display_results(quiz_scores):
+    for student, scores in quiz_scores.items():
+        
