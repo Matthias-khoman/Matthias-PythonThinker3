@@ -57,4 +57,5 @@ while True:
     print("5. Exit")
     option = input("Enter your choice: ")
     if option == 1:
-        grade_students()
+        grade_students(student_answers, answer_key)
+    
