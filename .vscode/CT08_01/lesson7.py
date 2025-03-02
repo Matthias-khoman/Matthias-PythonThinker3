@@ -30,4 +30,4 @@ with open(fullpath, "a") as file:
     file.write("\nThis is John")
     file.write("\nThis is John Doe")
 
-#
+# Exercise 5
