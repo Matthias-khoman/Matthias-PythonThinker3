@@ -9,5 +9,5 @@ else:
     print("{} does not exist".format(fullpath))
 
 # Exercise 1
-file = open("example.txt", "w")
+file = open(fullpath, "w")
 file.write('')
