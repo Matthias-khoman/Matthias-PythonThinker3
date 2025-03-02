@@ -63,6 +63,6 @@ while True:
     elif option == 3:
         find_highest_score(student_scores)
     elif option == 4:
-        display_results()
+        display_results(student_scores)
 
         
