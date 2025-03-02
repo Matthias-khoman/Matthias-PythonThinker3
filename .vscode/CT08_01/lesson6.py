@@ -48,3 +48,5 @@ def display_results(quiz_scores):
 
 print(display_results(quiz_scores))
 
+def menu_system():
+    print
