@@ -14,4 +14,4 @@ file = open(fullpath, "w")
 file.write("Hello John")
 file.close()
 
-# Exercise
+# Exercise 2
