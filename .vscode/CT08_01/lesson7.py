@@ -10,4 +10,4 @@ else:
 
 # Exercise 1
 file = open(fullpath, "w")
-file.write("")
+file.write("Hello World")
