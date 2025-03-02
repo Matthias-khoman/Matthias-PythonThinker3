@@ -20,4 +20,4 @@ content = file.read()
 print(f'File Content {content}')
 file.close()
 
-# 
+# Exercise 3
