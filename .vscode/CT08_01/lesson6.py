@@ -55,7 +55,7 @@ while True:
     print("3. Find Highest Scorer")
     print("4. Display All Results")
     print("5. Exit")
-    option = input("Enter your choice: ")
+    option = int(input("Enter your choice: "))
     if option == 1:
         grade_students(student_answers, answer_key)
     
