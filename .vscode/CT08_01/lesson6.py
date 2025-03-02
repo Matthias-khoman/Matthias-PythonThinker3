@@ -42,4 +42,4 @@ def display_results(quiz_scores):
     for student, scores in quiz_scores.items():
         print(f"{student} : {scores}")
 
-print()
+print(display_results(quiz_scores))
