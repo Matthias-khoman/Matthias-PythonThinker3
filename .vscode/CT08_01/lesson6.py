@@ -59,8 +59,8 @@ while True:
     if option == 1:
         student_scores = grade_students(student_answers, answer_key)
     elif option == 2:
-        calculate_average_score(student_score)
+        calculate_average_score(student_scores)
     elif option == 3:
-        find_highest_score(quiz_scores)
+        find_highest_score(st_scores)
 
         
