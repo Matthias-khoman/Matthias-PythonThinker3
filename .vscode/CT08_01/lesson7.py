@@ -8,3 +8,4 @@ if os.path.exists(fullpath):
 else:
     print("{} does not exist".format(fullpath))
 
+# Exercise 1
