@@ -7,3 +7,4 @@ if os.path.exists(fullpath):
     print("{} exist".format(fullpath))
 else:
     print("{} does not exist".format(fullpath))
+
