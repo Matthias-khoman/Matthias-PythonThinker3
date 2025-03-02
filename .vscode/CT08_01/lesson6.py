@@ -47,3 +47,4 @@ def display_results(quiz_scores):
         print(f"{student} : {scores}")
 
 print(display_results(quiz_scores))
+
