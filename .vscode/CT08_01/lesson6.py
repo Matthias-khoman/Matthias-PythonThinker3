@@ -60,6 +60,7 @@ while True:
         grade_students(student_answers, answer_key)
     elif option == 2:
         calculate_average_score(student_score)
-        
+    elif option == 3:
+        fin
 
         
