@@ -35,7 +35,7 @@ def find_highest_score(quiz_scores):
             highest_scorers.append(students)
     return highest_scorers
 
-print(find_highest_score(quiz_scores))
+# print(find_highest_score(quiz_scores))
 
 # display results
 def display_results(quiz_scores):
@@ -46,7 +46,7 @@ def display_results(quiz_scores):
     for student, scores in quiz_scores.items():
         print(f"{student} : {scores}")
 
-print(display_results(quiz_scores))
+# print(display_results(quiz_scores))
 
 while True:
     print("Quiz Grading System Menu")
