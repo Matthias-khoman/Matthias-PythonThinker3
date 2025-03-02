@@ -60,7 +60,8 @@ while True:
         student_scores = grade_students(student_answers, answer_key)
         print("All students graded")
     elif option == 2:
-        calculate_average_score(student_scores)
+        acalculate_average_score(student_scores)
+        
     elif option == 3:
         find_highest_score(student_scores)
     elif option == 4:
