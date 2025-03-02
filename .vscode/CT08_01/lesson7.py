@@ -15,4 +15,4 @@ file.write("Hello John")
 file.close()
 
 # Exercise 2
-file = open()
+file = open(fullpath, "r")
