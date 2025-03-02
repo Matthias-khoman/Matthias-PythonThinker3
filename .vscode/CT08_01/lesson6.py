@@ -63,7 +63,7 @@ while True:
         average = calculate_average_score(student_scores)
         print(average)
     elif option == 3:
-        find_highest_score(student_scores)
+        highest_scorers = find_highest_score(student_scores)
     elif option == 4:
         display_results(student_scores)
 
