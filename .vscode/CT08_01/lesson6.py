@@ -39,6 +39,8 @@ print(find_highest_score(quiz_scores))
 
 # display results
 def display_results(quiz_scores):
+    if not quiz_scores:
+        print('')
     print("Class Results:")
     for student, scores in quiz_scores.items():
         print(f"{student} : {scores}")
