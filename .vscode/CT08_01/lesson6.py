@@ -59,6 +59,6 @@ while True:
     if option == 1:
         grade_students(student_answers, answer_key)
     elif option == 2:
-        calculate_average_score(stude)
+        calculate_average_score(student_score)
 
         
