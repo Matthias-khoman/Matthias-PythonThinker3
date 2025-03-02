@@ -69,6 +69,7 @@ while True:
         display_results(student_scores)
     elif option == 5:
         break
-    
+    else:
+        print("Not an option")
 
         
