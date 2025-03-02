@@ -41,3 +41,5 @@ def display_results(quiz_scores):
     print("Class Results:")
     for student, scores in quiz_scores.items():
         print(f"{student} : {scores}")
+
+print()
