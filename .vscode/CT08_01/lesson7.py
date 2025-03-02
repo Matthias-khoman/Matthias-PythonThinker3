@@ -32,3 +32,5 @@ with open(fullpath, "a") as file:
 
 # Exercise 5
 lines = ['Line 1\n', 'Line 2\n', 'Line 3\n']
+with open(fullpath, "w") as file:
+    
