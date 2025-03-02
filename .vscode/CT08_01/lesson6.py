@@ -51,5 +51,6 @@ print(display_results(quiz_scores))
 def menu_system():
     print("Quiz Grading System Menu")
     print("1. Grade All Students")
-    print("Calculate Class Average")
+    print("2. Calculate Class Average")
     print("3. Find Highest Scorer")
+    
