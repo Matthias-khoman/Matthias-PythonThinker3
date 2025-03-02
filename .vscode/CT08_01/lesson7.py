@@ -28,4 +28,4 @@ with open(fullpath, 'r') as file:
 # Exercise 4
 with open(fullpath, "a") as file:
     file.write("\nThis is John")
-    file.write("\n")
+    file.write("\nThis is John Doe")
