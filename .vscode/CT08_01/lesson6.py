@@ -64,6 +64,7 @@ while True:
         print(average)
     elif option == 3:
         highest_scorers = find_highest_score(student_scores)
+        print(highest_scorers)
     elif option == 4:
         display_results(student_scores)
 
