@@ -52,4 +52,4 @@ def menu_system():
     print("Quiz Grading System Menu")
     print("1. Grade All Students")
     print("Calculate Class Average")
-    print()
+    print("3. Find")
