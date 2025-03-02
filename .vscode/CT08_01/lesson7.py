@@ -9,3 +9,4 @@ else:
     print("{} does not exist".format(fullpath))
 
 # Exercise 1
+file = open("")
