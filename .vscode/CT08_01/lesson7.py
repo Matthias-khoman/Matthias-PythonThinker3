@@ -1,2 +1,2 @@
 import os 
-filepath = os.getcwd
+filepath = os.getcwd()
