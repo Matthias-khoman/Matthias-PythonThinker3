@@ -57,7 +57,7 @@ while True:
     print("5. Exit")
     option = int(input("Enter your choice: "))
     if option == 1:
-        grade_students(student_answers, answer_key)
+        student_scores = grade_students(student_answers, answer_key)
     elif option == 2:
         calculate_average_score(student_score)
     elif option == 3:
