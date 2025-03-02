@@ -55,4 +55,4 @@ while True:
     print("3. Find Highest Scorer")
     print("4. Display All Results")
     print("5. Exit")
-    option = input("")
+    option = input("Enter your C")
