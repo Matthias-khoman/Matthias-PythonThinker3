@@ -67,5 +67,8 @@ while True:
         print(highest_scorers)
     elif option == 4:
         display_results(student_scores)
+    elif option == 5:
+        break
+    
 
         
