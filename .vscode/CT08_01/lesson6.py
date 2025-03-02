@@ -50,4 +50,5 @@ print(display_results(quiz_scores))
 
 def menu_system():
     print("Quiz Grading System Menu")
-    print("1. ")
+    print("1. Grade All Students")
+    print("")
