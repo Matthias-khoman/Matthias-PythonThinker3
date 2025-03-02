@@ -54,3 +54,4 @@ def menu_system():
     print("2. Calculate Class Average")
     print("3. Find Highest Scorer")
     print("4. Display All Results")
+    print("5. Exit")
