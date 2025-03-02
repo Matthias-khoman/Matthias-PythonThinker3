@@ -1,4 +1,4 @@
 import os 
 filepath = os.getcwd()
 
-fullpath = os.path.join()
+fullpath = os.path.join(filepath, "file")
