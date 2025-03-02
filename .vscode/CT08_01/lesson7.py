@@ -21,3 +21,5 @@ print(f'File Content {content}')
 file.close()
 
 # Exercise 3
+with open(fullpath, 'r') as file:
+    content
