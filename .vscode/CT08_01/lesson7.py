@@ -51,5 +51,5 @@
 # print(my_list)
 
 # Q2
-alpha_
+alpha_points = {'A'}
     
