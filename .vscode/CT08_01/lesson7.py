@@ -62,6 +62,6 @@ while num <= 5:
     for letter in range(len(word)):
         # Declare score variable
         score = 0
-        score = score + alpha_points[letter] 
+        score = score + alpha_points[letter]
 
     
