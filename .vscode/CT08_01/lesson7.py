@@ -44,7 +44,7 @@ n = len(my_list)
 # Debugging code
 for i in range(n):
     for j in range(n-i-1):
-        if my_list[j] > my_list[j+1]:
+        if my_list[j] < my_list[j+1]:
             my_list[j], my_list[j+1] = my_list[j+1], my_list[j]
 
 print(my_list)
