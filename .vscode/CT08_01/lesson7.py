@@ -59,7 +59,7 @@ while num <= 5:
     # word input
     word = input('What word do you want? ')
     # To find the number of points for each letter
-    for letter in range(len(word)):
+    for letter in range(len(word) - 1):
         # Declare score variable
         score = 0
         score = score + alpha_points[letter]
