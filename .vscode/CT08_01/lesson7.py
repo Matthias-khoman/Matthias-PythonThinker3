@@ -41,7 +41,7 @@ with open(fullpath, "r") as file:
 
 my_list = [5, 8, 10, 9, 11, 12, 15, 2]
 n = len(my_list)
-
+# Debugging code
 for i in range(n):
     for j in range(n-i-1):
         if my_list[j] > my_list[j+1]:
