@@ -58,7 +58,7 @@ num = 0
 while num <= 5:
     # word input
     word = input('What word do you want? ')
-    
+    num_of_letters = len(word)
     # To find the number of points for each letter
     if letter in range(len(word)):
         # Declare score variable
