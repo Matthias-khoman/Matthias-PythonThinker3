@@ -56,6 +56,9 @@ alpha_points = {'A' : 1, 'B':3, 'C':3, 'D':2, 'E':1, 'F':4, 'G':2, 'H':4, 'I':1,
 # Making it run 5 times
 num = 0
 while num <= 5:
-    
+    # word input
     word = input('What word do you want? ')
+    for letter in len(word):
+        score = 0
+        
     
