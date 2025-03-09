@@ -39,7 +39,7 @@
 #     lines = file.readline()
 
 
-my_list = [87, 71, 85, 55, 77, 68, 76, 86, 56, 41, 43, 14, 5, 90, 37, 32, 60, 81, 34, 28, 29]
+my_list = [24, 16, 35, 57, 40, 1, 17]
 n = len(my_list)
 # Debugging code
 for i in range(n):
