@@ -58,7 +58,8 @@ num = 0
 while num <= 5:
     # word input
     word = input('What word do you want? ')
+    # F 
     for letter in len(word):
         score = 0
-        
+
     
