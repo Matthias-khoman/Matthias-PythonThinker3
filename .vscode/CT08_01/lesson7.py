@@ -62,7 +62,7 @@ while num <= 5:
     num_of_letters = len(word)
     print(num_of_letters)
     # To find the number of points for each letter
-    if letter in range(len(word)):
+    for letter in range(num_of_letters):
         # Declare score variable
         score = 0
         score = score + alpha_points[letter]
