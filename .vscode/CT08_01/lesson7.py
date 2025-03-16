@@ -31,9 +31,9 @@ fullpath = os.path.join(filepath, "example.txt")
 #     file.write("\nThis is John Doe")
 
 # # Exercise 5
-lines = ['Line 1\n', 'Line 2\n', 'Line 3\n']
-with open(fullpath, "w") as file:
-    file.writelines(lines)
+# lines = ['Line 1\n', 'Line 2\n', 'Line 3\n']
+# with open(fullpath, "w") as file:
+#     file.writelines(lines)
 
 with open(fullpath, "r") as file:
     lines = file.readline()
