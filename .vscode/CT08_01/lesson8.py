@@ -6,7 +6,8 @@ fullpath = os.path.join(filepath, filename)
 def create_file():
     global fullpath
     if not os.path.exists(fullpath):
-        os.makedirs(fullpath)
+        with open(fullpath, 'w') as file:
+            file.write('My Task list:')
         print('\nOK, creating a new file')
     else:
         print('file exists')
