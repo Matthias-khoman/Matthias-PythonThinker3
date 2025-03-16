@@ -7,6 +7,7 @@ def create_file():
     global fullpath
     if not os.path.exists(fullpath):
         os.makedirs(fullpath)
+        
     else:
         print('file exists')
 
