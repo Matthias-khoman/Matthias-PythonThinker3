@@ -2,7 +2,7 @@
 # # Exercise 0
 # filepath = os.getcwd()
 
-# fullpath = os.path.join(filepath, "example.txt")
+fullpath = os.path.join(filepath, "example.txt")
 
 # if os.path.exists(fullpath):
 #     print("{} exist".format(fullpath))
