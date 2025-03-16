@@ -1,4 +1,4 @@
-# import os 
+import os 
 # # Exercise 0
 # filepath = os.getcwd()
 
