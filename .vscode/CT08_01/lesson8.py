@@ -8,6 +8,6 @@ def create_file():
     if not os.path.exists(fullpath):
         os.makedirs(fullpath)
     else:
-        print()
+        print('file exists')
 
     
