@@ -10,6 +10,6 @@ def create_file():
         print('\nOK, creating a new file')
     else:
         print('file already exists')
-        input('')
+        input('Do you want to override? (y/n)')
 
 create_file()
