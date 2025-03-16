@@ -52,19 +52,19 @@
 
 # Q2
 # Points Dictionary
-alpha_points = {'A' : 1, 'B':3, 'C':3, 'D':2, 'E':1, 'F':4, 'G':2, 'H':4, 'I':1, 'J':8, 'K':5, 'L':1, 'M':3, 'N':1, 'O':1, 'P':3, 'Q':10, 'R':1, 'S':1, 'T':1, 'U':1, 'V':4, 'W':4, 'X':8, 'Y':4, 'Z':10}
-# Making it run 5 times
-num = 0
-while num <= 5:
-    # word input
-    word = input('What word do you want? ')
-    # get the number of letters in the word
-    num_of_letters = len(word)
-    # print(num_of_letters)
-    # To find the number of points for each letter
-    for letter in range(1, num_of_letters + 1):
-        # Declare score variable
-        score = 0
-        score = score + alpha_points[letter]
+# alpha_points = {'A' : 1, 'B':3, 'C':3, 'D':2, 'E':1, 'F':4, 'G':2, 'H':4, 'I':1, 'J':8, 'K':5, 'L':1, 'M':3, 'N':1, 'O':1, 'P':3, 'Q':10, 'R':1, 'S':1, 'T':1, 'U':1, 'V':4, 'W':4, 'X':8, 'Y':4, 'Z':10}
+# # Making it run 5 times
+# num = 0
+# while num <= 5:
+#     # word input
+#     word = input('What word do you want? ')
+#     # get the number of letters in the word
+#     num_of_letters = len(word)
+#     # print(num_of_letters)
+#     # To find the number of points for each letter
+#     for letter in range(1, num_of_letters + 1):
+#         # Declare score variable
+#         score = 0
+#         score = score + alpha_points[letter]
 
     
