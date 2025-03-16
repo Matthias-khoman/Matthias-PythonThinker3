@@ -1,6 +1,6 @@
 import os 
 # # Exercise 0
-# filepath = os.getcwd()
+filepath = os.getcwd()
 
 fullpath = os.path.join(filepath, "example.txt")
 
