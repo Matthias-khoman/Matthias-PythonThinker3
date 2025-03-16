@@ -12,3 +12,4 @@ def create_file():
         print('file already exists')
 
     
+create_file()
