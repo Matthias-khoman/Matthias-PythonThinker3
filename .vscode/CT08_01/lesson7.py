@@ -37,7 +37,7 @@ fullpath = os.path.join(filepath, "example.txt")
 
 with open(fullpath, "r") as file:
     lines = file.readline()
-    
+    print(lines)
     # for line in lines:
     #     print('Line:', line.strip())
 
