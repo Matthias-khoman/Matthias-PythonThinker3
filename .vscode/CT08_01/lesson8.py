@@ -6,6 +6,6 @@ fullpath = os.path.join(filepath, filename)
 def create_file():
     global fullpath
     if not os.path.exists(fullpath):
-        os.ma
+        os.makedirs(fullpath)
 
     
