@@ -10,6 +10,6 @@ def create_file():
             file.write('My Task list:')
         print('\nOK, creating a new file')
     else:
-        print('file exists')
+        print('file already exists')
 
     
