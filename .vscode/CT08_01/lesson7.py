@@ -71,4 +71,3 @@ fullpath = os.path.join(filepath, "example.txt")
 #         score = 0
 #         score = score + alpha_points[letter]
 
-    
