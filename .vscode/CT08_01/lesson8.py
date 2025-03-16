@@ -11,5 +11,9 @@ def create_file():
     else:
         print('file already exists')
         choice = input('Do you want to override? (y/n)')
+        if choice == 'y':
+            with open(fullpath, 'w') as file:
+                file.write('My Task list:')
+
 
 create_file()
