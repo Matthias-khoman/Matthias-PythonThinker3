@@ -14,6 +14,7 @@ def create_file():
         if choice == 'y':
             with open(fullpath, 'w') as file:
                 file.write('My Task list:')
+            print('\nOK, creating a new file')
 
 
 create_file()
