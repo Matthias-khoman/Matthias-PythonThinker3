@@ -38,7 +38,7 @@ with open(fullpath, "w") as file:
 with open(fullpath, "r") as file:
     lines = file.readline()
     for line in lines:
-        print('Line:')
+        print('Line:', line.strip())
 
 # Prac Test
 # Q1
